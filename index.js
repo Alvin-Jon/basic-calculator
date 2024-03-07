@@ -4,8 +4,6 @@ let output = document.getElementById('answer')
 
 let button = document.querySelectorAll('.btn')
 
-screen.orientation.lock('portrait')
-
 button.forEach((btn,i) => {
    btn.addEventListener('click', () => {
     // logic for deleting
